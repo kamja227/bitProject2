@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<div id=menu>
+      <c:if test="${empBean ne null }">
+       <ol><h3>학생관리</h3>
+           <li><a href="addattendance.bit">출석 입력</a></li>
+           <li><a href="aattendance.bit">출석 관리</a></li>
+           <li><a href="ascore.bit">성적 관리</a></li>
+           <li><a href="astudent.bit">학생 관리</a></li>
+       </ol>
+       <c:if test="${empBean.level >=3 }"><ol><h3>교육 과정 관리</h3>
+           <li><a href="addcourse.bit">교육 과정 등록</a></li>
+           <li><a href="acourse.bit">교육 과정 관리</a></li>
+       </ol>
+       </c:if>
+       
+       <ol><h3>취업 지원 센터</h3>
+           <li><a href="arecruit.bit">취업 지원 센터</a></li>
+           <li><a href="application.bit">취업 지원 현황</a></li>
+       </ol>
+      
+       <ol><h3>관리자 계정</h3>
+           <li><a href="alist.bit">관리자 계정 정보</a></li>
+        </ol>
+        </c:if>
+       
+       <c:if test="${empBean eq null }">
+       <span>사용 권한이 없습니다.</span>
+       </c:if>
+       
+   </div>

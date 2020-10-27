@@ -1,0 +1,51 @@
+.buttn{
+            margin:20px;
+            text-decoration: none;
+            font-weight: 400;
+            font-size:0.90em;
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            border: 0;
+            outline:0;
+            background-color:#489CFF;
+        }
+       
+        .an {
+            display: block;
+            text-decoration: none;
+            color: black;
+        }
+        .an:hover{
+            color: black;
+       
+            font-weight: bold;
+        }
+        .table {
+    		margin: 20px auto;
+    		border-radius:10px;
+    		width:70%;
+		}
+		.thd {
+		    background:#5f9be3;
+		    color:#fff;
+		    font-weight:bold;
+		    padding:5px; 
+		    width:100px;   
+		    text-align: center;
+		}
+ 
+		.thd .text {
+			
+		    padding-left:10px;
+		    text-align: center;
+		    border-top: 1px solid lightgray;
+		}
+		table tr.row:hover{
+			background-color: lightgray;
+		}
+		.tsub{
+			text-align: center;
+			border-top: 1px solid lightgray;
+			height: 30px;
+		}

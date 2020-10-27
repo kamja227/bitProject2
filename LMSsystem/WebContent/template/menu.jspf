@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<div id="menu">
+            <ul>
+              <ol>비트 캠프
+                    <li><a href="intro.bit">비트 캠프 소개</a></li>
+                    <li><a href="teacher.bit">강사진 소개</a></li>
+                    <li><a href="map.bit">오시는 길</a></li>
+                </ol>
+                <ol>교육 소개
+                    <li><a href="subject.bit">교육 과정 소개</a></li>
+                </ol>
+                <ol>교육 과정
+                    <li><a href="courselist.bit">모집중인 과정</a></li>
+                </ol>
+                <ol>취업 지원 센터
+                    <li><a href="recruit.bit">취업 지원 센터</a></li>
+                </ol>
+            </ul>
+        </div>

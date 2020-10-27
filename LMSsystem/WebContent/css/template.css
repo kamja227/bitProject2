@@ -1,0 +1,101 @@
+		* {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        #header,
+        #menu,
+        #footer {
+            width: 1200px;
+            margin: 0px auto;
+        }
+        body {}
+        #header{
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        #header>span{
+        	display:inline-block;
+            color:gray;
+        	float:right;
+        }
+        #header>span>a{
+        	color:gray;
+        	text-decoration: none;
+        	
+        }
+        #header>span>a:hover{
+        	text-decoration: underline;
+        	color: orange;
+        }
+        body>div>div>a>img {
+            height: 61px;
+            width: 213x;
+            margin-left: 20px;
+            margin-bottom:20px;
+            overflow: hidden;
+        }
+        #header>div+div>img{
+        	margin-top : -50px;
+        	margin-left : 200px;
+        	float : right;
+        	display : block;
+        	width: 423px;
+        	height: 50px;
+        }
+        #menu {
+            margin-left: 200px;
+            position: absolute;
+            z-index: 5;
+        
+            border-top-width: 1px;
+            margin-top: 20px;
+            height: 80px;
+        }
+
+        #menu>ul {
+            margin-left: 100px;
+        }
+
+        #menu>ul>ol {
+            font-family: 'Noto Sans KR', sans-serif;
+            width: 150px;
+            line-height: 40px;
+            float: left;
+            
+            margin: 20px;
+            font-size: 20px;
+            text-align: center;
+            
+        }
+		
+        #menu>ul>ol>li {	
+            background-color: white;
+            line-height: 50px;
+            font-size: 15px;
+            list-style: none;
+           visibility: hidden;
+            
+        }
+
+        #menu>ul>ol>li>a {
+            display: block;
+            text-decoration: none;
+            color: black;
+        }
+        #menu>ul>ol>li>a:hover{
+            color: black;
+            font-weight: bold;
+        }
+        #footer{
+        	width:1000px;
+			font-family: 'Noto Sans KR', sans-serif;
+        }
+		#footer>img{
+			float:left;
+        	display:inline-block;
+        	width:213px;
+        	height: 80px;
+			
+		}
+		
